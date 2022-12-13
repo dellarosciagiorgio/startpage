@@ -26,11 +26,17 @@ const CARDS = [
     color: "#FF0000",
 },
 {
-    name: "Gmail",
-    icon: "ri-google-fill",
-    link: "https://mail.google.com/",
-    color: "#dd0000",
-  },
+  name: "Twitch",
+  icon: "ri-twitch-fill",
+  link: "https://www.twitch.tv/",
+  color: "#FF00FF",
+},
+{
+  name: "Gmail",
+  icon: "ri-google-fill",
+  link: "https://mail.google.com/",
+  color: "#dd0000",
+},
 ];
 
 const DAYS = [
