@@ -1,12 +1,36 @@
-html {
+page {
     background-color: #fcfcfc;
 }
 
-.darkmode {
-        background-color: #303030;
-        color: #f00;
+html {
+    font-family: "Noto Sans";
+    margin: 15%;
+    overflow: hidden;
+}
+img {
+    float: right;
+    height: 10%;
+    width: 10%;
 }
 
-h1, h2 {
+h1 {
+    text-align: center;
+    font-size: 64px;
     color: #ffaaff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #ffaaff;
+}
+
+/**/
+/**/
+
+/*dark mode settings*/
+
+.dark {
+    background-color: #303030;
+    color: red;
 }
