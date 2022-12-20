@@ -6,10 +6,10 @@ the page includes: a weather widget, date and time and a search box that leverag
 
 <img alt="screenshot" src="imgs/screenshot-light.png">
 
-<center>light mode</center>
+light mode
 
 ---
 
 <img alt="screenshot" src="imgs/screenshot-dark.png">
 
-<center>dark mode</center>
+dark mode
