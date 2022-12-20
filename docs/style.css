@@ -1,12 +1,19 @@
+* {
+    font-family: "JetBrains Mono";
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    /*overflow: hidden;*/
+}
+
 body {
     background-color: #fcfcfc;
     font-size: 50px;
-    font-family: "JetBrains Mono";
     color: #303030;
-    margin: 10%;
 }
 
 img {
+    float: right;
     float: right;
     height: 8%;
     width: 8%;
@@ -22,6 +29,12 @@ input {
     border-color: #303030;
     caret-color: transparent;
     text-indent: 5%;
+}
+
+embed {
+    width: 80%;
+    border-radius: 15px;
+    border-color: #303030;
 }
 
 .dark {

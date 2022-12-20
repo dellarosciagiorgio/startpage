@@ -9,20 +9,27 @@
     	<title>startpage</title>
     	<link rel="stylesheet" href="style.css">
     	<link rel="icon" type="image/png" href="../imgs/SP.png">
+
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   	</head>
   	<body>
-		<div>
-    		<img alt="change theme" src="../imgs/StartPage.png" onclick="switchMode()"> 
-    	</div>
+		<center>
+			<embed src="https://indify.co/widgets/live/weather/lzvMQNGl46KB9AK4uJW7">
+			<div>
+				<img alt="change theme" src="../imgs/StartPage.png" onclick="switchMode()"> 
+			</div>
+		</center>
 		<p id="datetime"></p>
-		<br>
-    	<div align="center">
-			<form action="http://www.duckduckgo.com/" method="get" target="_blank">
-				<input class="enterpress" type="text" autocomplete="off" name="q" placeholder=" search">
-    		</form>
-    	</div>
+		<center>
+    		<div>
+				<form action="http://www.duckduckgo.com/" method="get" target="_blank">
+					<input class="enterpress" type="text" autocomplete="off" name="q" placeholder=" search">
+    			</form>
+    		</div>
+		</center>
     </body>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/datetime.js"></script>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/search.js"></script>
 </html>
