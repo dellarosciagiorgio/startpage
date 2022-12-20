@@ -9,19 +9,17 @@
     	<title>startpage</title>
     	<link rel="stylesheet" href="style.css">
     	<link rel="icon" type="image/png" href="../imgs/SP.png">
-
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   	</head>
   	<body>
 		<center>
-			<embed src="https://indify.co/widgets/live/weather/lzvMQNGl46KB9AK4uJW7">
 			<div>
 				<img alt="change theme" src="../imgs/StartPage.png" onclick="switchMode()"> 
 			</div>
-		</center>
-		<p id="datetime"></p>
-		<center>
-    		<div>
+			<div>
+				<embed src="https://indify.co/widgets/live/weather/lzvMQNGl46KB9AK4uJW7">
+			</div>
+			<div>
+				<p id="datetime"></p>
 				<form action="http://www.duckduckgo.com/" method="get" target="_blank">
 					<input class="enterpress" type="text" autocomplete="off" name="q" placeholder=" search">
     			</form>
@@ -29,7 +27,7 @@
 		</center>
     </body>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/datetime.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/datetime.js"></script>
     <script src="scripts/search.js"></script>
 </html>
