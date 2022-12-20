@@ -1,10 +1,9 @@
-page {
+body {
     background-color: #fcfcfc;
-}
-
-html {
-    font-family: "Noto Sans";
-    margin: 15%;
+    font-size: 50px;
+    font-family: "JetBrains Mono";
+    color: #303030;
+    margin: 10%;
     overflow: hidden;
 }
 
@@ -14,21 +13,23 @@ img {
     width: 10%;
 }
 
-h1 {
-    text-align: center;
-    font-size: 64px;
-    color: #ffaaff;
-}
-
-h2 {
-    text-align: center;
-    font-size: 48px;
-    color: #ffaaff;
+input {
+    background-color: #eeeeee;
+    width: 200px;
+    font-size: 20px;
+    font-family: "JetBrains Mono";
+    color: #303030;
+    height: 25px;
+    border-radius: 10px;
+    border-color: #303030;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /*dark mode settings*/
 
 .dark {
     background-color: #303030;
-    color: red;
+    color: #eeeeee;
 }
