@@ -1,6 +1,6 @@
 # **minimal startpage**
 
-the page includes: a weather widget, date and time and a search box that leverages the <tt>duckduckgo</tt> engine.
+the page includes: a weather widget (from <tt>[indify](https://indify.co)</tt>), date and time, and a search box that leverages the <tt>duckduckgo</tt> engine.
 
 ---
 
